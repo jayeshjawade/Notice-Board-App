@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@mipmap/ic_account_box_black_18dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_uploads"
+            android:icon="@mipmap/ic_cloud_upload_black_18dp"
+            android:title="Upload" />
+        <item
+            android:id="@+id/nav_view_uploads"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:title="View Uploads" />
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@mipmap/ic_cloud_download_black_24dp"
+            android:title="Downloads" />
+        <item
+            android:id="@+id/nav_fcm"
+            android:icon="@mipmap/ic_chat_black_24dp"
+            android:title="Subscriptions" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@mipmap/ic_event_note_black_24dp"
+            android:title="TimeTable" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@mipmap/ic_event_black_24dp"
+            android:title="Exam Schedule" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@mipmap/ic_web_black_24dp"
+            android:title="Website" />
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@mipmap/ic_account_box_black_18dp"
+            android:title="Delete Account" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/web"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/it"
+            android:title="Check For Update" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_android_black_24dp"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@mipmap/ic_group_black_24dp"
+                android:title="Developers" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_element"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="2sp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wood"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/diplomata"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:paddingLeft="18dp"
+                android:text="App Team"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#795548"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/white"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#795548"
+                    />
+                <TextView
+
+                    android:id="@+id/textViewName4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/diplomata"
+                    android:text="APP DEVELOPER"
+                    android:textAlignment="center"
+                    android:textColor="#76FF03"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#795548"
+                    />
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="10dp"
+                    app:srcCompat="@drawable/jj" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:background="@android:color/white"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="4dp"
+                    android:text="JAYESH JAWADE"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="@font/diplomata"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8975171588"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="jayeshjawade2015@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ws"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="53dp"
+                        android:layout_toStartOf="@+id/insta"
+                        app:srcCompat="@drawable/whatsapp" />
+
+                    <ImageView
+                        android:id="@+id/insta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        app:srcCompat="@drawable/insta" />
+
+                    <ImageView
+                        android:id="@+id/fb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="56dp"
+                        android:layout_toEndOf="@+id/insta"
+                        app:srcCompat="@drawable/fb" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#795548"
+                    />
+
+                <TextView
+
+                    android:id="@+id/textViewName5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/diplomata"
+                    android:text="APP DESIGNER"
+                    android:textAlignment="center"
+                    android:textColor="#76FF03"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#795548"
+                    />
+
+                <ImageView
+                    android:id="@+id/devloper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="4dp"
+                    app:srcCompat="@drawable/it"
+
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:background="@android:color/white"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="4dp"
+                    android:text="ABHISHEK GAWANDE"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="@font/akronim2"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7057830298"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="abhishekgawande7452@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#795548"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/designer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/gcoea"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:background="@android:color/white"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="4dp"
+                    android:text="SHUBHAM TIDKE"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="@font/akronim2"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7875854815"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="shubhamtidke96@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#8D6E63"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginBottom="20dp"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#795548"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

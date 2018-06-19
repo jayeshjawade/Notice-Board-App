@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/college" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView11"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="45dp"
+        android:text="Government College of Engineering, Amravati (GCOEA) is one of the oldest engineering institutes in state of Maharashtra, India. It is located in Amravati. Beside engineering education, it is recognized research center for Ph.D. Programs in Civil, Mechanical, Electrical, Electronics and Computer Engineering for Amravati University. The student strength is around 1,700."
+        android:textColor="#6D4C41"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="For More Details Please Go To Website...."
+        android:textColor="#6D4C41"
+        android:textStyle="bold|italic"/>
+
+</RelativeLayout>

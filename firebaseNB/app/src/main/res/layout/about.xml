@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/diplomata"
+        android:text="IT NOTICE BOARD"
+        android:textAlignment="center"
+        android:textColor="#795548"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/it" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/diplomata"
+        android:text="Version 1.0"
+        android:textAllCaps="true"
+        android:textColor="#6D4C41"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Minor Project"
+        android:textAllCaps="true"
+        android:textColor="#6D4C41"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="https://drive.google.com/open?id=1VQxJqe7UZxsDPEaOUlwxa3OnQF0OHYcF"
+        android:textColor="#6D4C41"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"/>
+
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fb"
+        android:layout_marginEnd="53dp"
+        android:layout_toStartOf="@+id/fb"
+        app:srcCompat="@drawable/insta" />
+
+    <ImageView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fb"
+        android:layout_marginStart="58dp"
+        android:layout_toEndOf="@+id/fb"
+        app:srcCompat="@drawable/web" />
+</RelativeLayout>
